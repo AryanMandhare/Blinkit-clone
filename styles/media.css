@@ -54,14 +54,36 @@
         flex-basis: 25%;
 
     }
-    
 
-    .productSection{
-        padding: 30px 10px;
+
+    .productSection {
+        padding: 20px 10px;
     }
-    
+
     .productItems {
         flex-basis: 49%;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .footer-mid-row1 {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .footerLinks li {
+        flex-basis: 40%;
+    }
+
+    .footer-mid-row3 {
+        padding: 0px 10px;
+    }
+
+    .footer-mid-row2 {
+        flex-direction: column;
+        gap: 20px;
     }
 
 }
