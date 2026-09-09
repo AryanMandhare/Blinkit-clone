@@ -153,15 +153,66 @@ header {
     width: 100%;
     margin: 30px 0px;
     display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+    
+
 
 }
 
 .productItems {
     flex-basis: 15%;
     border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 2px #ccc;
 
 }
 
 .productImg {
     text-align: center;
+    padding: 15px;
+}
+
+.productImg p {
+    background-color: #f8f8f8;
+    display: flex;
+    font-size: 12px;
+    text-align: left;
+    align-items: center;
+    width: 60px;
+    padding: 2px;
+    justify-content: center;
+    gap: 5px
+}
+
+.productContent {
+    padding: 15px;
+    padding-top: 0px;
+
+}
+
+.productContent h3 {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.productContent p {
+    font-size: 14px;
+    color: #848080;
+
+}
+
+.btn-price-outer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.btn-price-outer button {
+    padding: 5px 15px;
+    background-color: #f7fff9;
+    border: 1px solid #328839;
+    border-radius: 10px;
 }
