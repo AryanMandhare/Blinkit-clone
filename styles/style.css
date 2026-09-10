@@ -157,8 +157,6 @@ header {
     gap: 2%;
     flex-wrap: wrap;
 
-
-
 }
 
 .productItems {
@@ -181,7 +179,7 @@ header {
     font-size: 12px;
     text-align: left;
     align-items: center;
-    width: 60px;
+    width: 70px;
     padding: 2px;
     justify-content: center;
     gap: 5px
